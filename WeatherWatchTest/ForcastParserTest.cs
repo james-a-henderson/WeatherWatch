@@ -9,6 +9,8 @@ namespace WeatherWatchTest
     [TestClass]
     public class ForcastParserTest
     {
+
+        //Ensure parser can handle the full expected input
         [TestMethod]
         public void FullXml_ParsesCorrectly()
         {
